@@ -21,25 +21,23 @@
         <img class="cloud right" src="/assets/cloud_right.png">
         <!-- this is where all the testimonials will go -->
         <div id="testimonials-box" class="testimonials-box">
-            <div class="testimonial">
-                <div class="t-rating-row">
-                    <div class="t-stars">
-                        <img class="star-img" src="/assets/star_yellow.svg">
-                        <img class="star-img" src="/assets/star_yellow.svg">
-                        <img class="star-img" src="/assets/star_yellow.svg">
-                        <img class="star-img" src="/assets/star_black.svg">
-                        <img class="star-img" src="/assets/star_black.svg">
-                    </div>
-                    <p class="t-name">~Goob</p>
-                </div>
-                <p class="t-message">
-                    some temporary text made by a goober
-                </p>
-            </div>
-            <div class="testimonial">
-                stuff
-            </div>
         </div>
+
+        <form id="t-form" class="t-form">
+            <div class="stars-row">
+                <b>Rate Us:</b>
+                <!-- stuff will go here later for the stars -->
+            </div>
+            <label>
+                Message: <br>
+                <textarea id="t-message" class="t-form-input"></textarea>
+            </label>
+            <div class="t-bottom-row">
+                <label for="email"><b>Your Email</b></label>
+                <input id="email" class="t-form-input" type="email" placeholder="email">
+                <button type="submit" class="btn">Send</button>
+            </div>
+        </form>
 
     </main>
     <footer class="main-footer">
